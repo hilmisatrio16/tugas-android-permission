@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".MainActivity"
+    android:padding="24dp">
+    <Button
+        android:id="@+id/btnInternetPermission"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Pindah Activity Cek Permission Internet"/>
+    <Button
+        android:id="@+id/btnPindahAcitivityWifi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/btnInternetPermission"
+        android:text="Pindah Activity Cek Permission Wifi"/>
+    <Button
+        android:id="@+id/btnPindahActivityLocation"
+        android:text="cek location"
+        android:layout_below="@id/btnPindahAcitivityWifi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"/>
+    <Button
+        android:id="@+id/btnPindahAcivityGallery"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/btnPindahActivityLocation"
+        android:text="Pindah Activity Permission Gallery"/>
+
+
+</RelativeLayout>

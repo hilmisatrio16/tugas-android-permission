@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Latihan Permission</string>
+    <string name="permission_internet">Permission Internet</string>
+</resources>
